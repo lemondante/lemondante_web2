@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link href="styles/web2.css" rel="stylesheet" type="text/css">
+    <title>Title</title>
+</head>
+<body>
+<input id="screen" name="screen" type="text" readonly="readonly" value="">
+<label for="screen"></label>
+
+<div>
+    <input type="button" class="button orange" id="+" value="+" onclick="show('+')">
+    <input type="button" class="button orange" id="7" value="7" onclick="show('7')">
+    <input type="button" class="button orange" id="8" value="8" onclick="show('8')">
+    <input type="button" class="button orange" id="9" value="9" onclick="show('9')">
+</div>
+
+<div>
+    <input type="button" class="button orange" id="-" value="-" onclick="show('-')">
+    <input type="button" class="button orange" id="4" value="4" onclick="show('4')">
+    <input type="button" class="button orange" id="5" value="5" onclick="show('5')">
+    <input type="button" class="button orange" id="6" value="6" onclick="show('6')">
+</div>
+
+<div>
+    <input type="button" class="button orange" id="*" value="*" onclick="show('*')">
+    <input type="button" class="button orange" id="1" value="1" onclick="show('1')">
+    <input type="button" class="button orange" id="2" value="2" onclick="show('2')">
+    <input type="button" class="button orange" id="3" value="3" onclick="show('3')">
+</div>
+
+<div>
+    <input type="button" class="button orange" id="/" value="/" onclick="show('/')">
+    <input type="button" class="button orange" id="0" value="0" onclick="show('0')">
+    <input type="button" class="button orange" id="=" value="=" onclick="answer()">
+    <input type="button" class="button orange" id="AC" value="AC" onclick="reclear()">
+</div>
+
+<script src="scrips/web2.js"></script>
+</body>
+</html>
